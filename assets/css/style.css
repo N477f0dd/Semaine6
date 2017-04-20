@@ -1,6 +1,6 @@
 h1, h2{
   font-family: Impact;
-  color: #cc0000;
+  color: red;
   text-align: center;
 }
 
@@ -13,7 +13,7 @@ h3{
 }
 
 body{
-  background-color: #fffff;
+
 }
 
 body ul{
@@ -25,27 +25,46 @@ footer ul{
   list-style-type: none;
 }
 
-.conteneur {
-  width: 100%;
-  max-width: 960px;
-  padding: 10px;
-  margin: 15px;
-}
-
 header {
-  background-image: url(./../fonds/playstation-pattern.png);
+    position: fixed;
+    z-index: 10;
+  background-image: url(./../fonds/brickwall.png);
 }
 
 main {
-  background-image: url(./../fonds/topography.png);
+  background-image: url(./../fonds/retina_wood.png);
+  padding-top: 100px ;
 }
 
 footer {
-  background-image: url(./../fonds/Sports.png);
+  background-image: url(./../fonds/hexellence.png);
 }
 
 img {
-  width:20%;
+
+}
+
+
+
+footer{
+  text-align: center;
+}
+
+iframe{
+  display: inline-block;
+    box-sizing:border-box;
+    vertical-align: top;
+    width: 30% ;
+    height: 50% ;
+}
+
+.conteneur1 {
+    color: #cc0000
+}
+
+#logocv {
+  width: 5em ;
+  display: inline-block;
 }
 
 .prez {
@@ -54,17 +73,11 @@ img {
   margin: auto;
 }
 
-.colonnes{
-    width:30%;
-    display:inline-block;
-    vertical-align:top;
-    text-align: center;
+
+#h3 {
+  color: #cc0000 ;
 }
 
-footer{
+.col-md-4 {
   text-align: center;
-}
-
-iframe{
-  width: 50%;
 }
